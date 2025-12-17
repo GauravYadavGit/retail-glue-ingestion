@@ -30,7 +30,7 @@ jobs:
 
       - name: Package Lambda
         run: |
-          zip -r terraform/lambda.zip lambda
+          zip -r lambda.zip lambda
 
 
       - name: Terraform Format Check
