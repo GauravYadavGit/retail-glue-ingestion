@@ -28,6 +28,11 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
 
+      - name: Package Lambda
+        run: |
+          zip -r terraform/lambda.zip lambda
+
+
       - name: Terraform Format Check
         run: terraform fmt -check
 
