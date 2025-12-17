@@ -1,0 +1,13 @@
+{
+  "order_id": "1001",
+  "customer_id": "C1001",
+  "order_ts": "2025-12-17T02:45:00Z",
+  "items": [
+    {
+      "sku": "SKU-900",
+      "qty": 2,
+      "price": 799.50
+    }
+  ],
+  "total_amount": 1599.00
+}
